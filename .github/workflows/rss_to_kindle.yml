@@ -3,7 +3,7 @@ name: RSS to Kindle
 on:
   schedule:
     # 每天北京时间早上9点运行 (UTC时间23:00)
-    - cron: '0 01 * * *'
+    - cron: '0 11 * * *'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
